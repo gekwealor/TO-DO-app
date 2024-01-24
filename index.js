@@ -1,5 +1,6 @@
 const inputBox = document.getElementById("input-box");
 const containerlist = document.getElementById("container-list");
+const addButton = document.getElementById("add-button");
 
 function addTask(){
     if(inputBox.value === ''){
